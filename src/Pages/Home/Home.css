@@ -1,0 +1,60 @@
+.home-ion-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0eee3;
+  overflow-y: scroll;
+  background-image: none;
+}
+
+.home-name-label {
+  left: 15%;
+}
+
+.home-price-label {
+  left: 10%;
+}
+
+.home-change-label {
+  left: 3%;
+}
+
+.home-change-per-label {
+  left: -2%;
+}
+
+.home-market-label {
+  left: -9%;
+}
+
+.crypto-container-div {
+  overflow-y: scroll;
+}
+
+.header-toolbar-1 {
+}
+
+.crypto-grid {
+  max-width: 100vh;
+}
+
+.crypto-row {
+  width: 100vh;
+  margin-bottom: -3%;
+}
+
+.crypto-col {
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-change-label {
+    display: none;
+  }
+
+  .home-change-per-label {
+    display: none;
+  }
+
+  .home-market-label {
+    display: none;
+  }
+}

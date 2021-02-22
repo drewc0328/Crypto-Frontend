@@ -1,0 +1,37 @@
+.home-header {
+  display: flex;
+  --border-style: none;
+  height: 75px;
+}
+
+.header-title-text {
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header-toolbar {
+  --background: #ffbb28;
+  --border-style: none;
+}
+
+.header-button {
+  transform: translateY(25%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .portfolio-undefined {
+    display: none;
+  }
+
+  .home-undefined {
+    display: none;
+  }
+
+  .header-title-toolbar {
+    display: none;
+  }
+
+  .header-button {
+    transform: translate(40%, 15%);
+  }
+}

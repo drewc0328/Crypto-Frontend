@@ -1,0 +1,30 @@
+.property-col {
+  text-align: center;
+}
+
+.translate-p {
+  transform: translateY(20%);
+}
+
+.portfolio-container-card {
+  width: 80%;
+  left: 10%;
+}
+
+.property-col ion-text {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .port-container-buy-sell {
+    display: none;
+  }
+
+  .port-container-name {
+    margin-left: 10%;
+  }
+
+  .port-container-price {
+    margin-right: 12%;
+  }
+}

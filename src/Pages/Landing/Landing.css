@@ -1,0 +1,124 @@
+.landing-page {
+  background-image: url("../../Images/background3.png");
+  background-repeat: no-repeat;
+  background-color: #ffbb28;
+}
+
+.landing-title {
+  text-align: center;
+  color: #eee;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: bold;
+  font-size: 48px;
+}
+
+.title-div {
+  padding: 10px;
+}
+
+.ion-input-card {
+  margin-top: 30%;
+  height: 600px;
+  width: 475px;
+}
+
+.email-item {
+  margin-top: 12%;
+  margin-left: 25%;
+}
+
+.password-item {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.submit-item {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.card-title-text {
+  font-size: 24px;
+  margin-top: 10%;
+}
+
+.landing-text-col {
+  text-align: center;
+}
+
+.landing-main-col {
+  transform: translate(0, -15%);
+}
+
+.card-header {
+  margin-top: 10%;
+}
+
+.submit-row {
+  transform: translateY(-10%);
+}
+
+.signup-row {
+  margin-left: 39%;
+  margin-top: 3%;
+  transform: translateY(-10%);
+}
+
+.signup-button {
+}
+
+.signup-text {
+}
+
+.helper-col1 {
+  margin-top: 4%;
+  left: 33%;
+}
+
+.helper-col2 {
+  left: 18%;
+}
+
+.helper-row {
+  left: 30%;
+}
+
+.error-text {
+  color: #eb445a;
+}
+
+.landing-error-col {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ion-input-card {
+    transform: translate(-8%, 10%);
+    width: 110%;
+  }
+
+  .email-item {
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+
+  .password-item {
+    margin-top: 15%;
+    margin-left: 20%;
+  }
+
+  .submit-item {
+    margin-top: 15%;
+    margin-left: 40%;
+  }
+
+  .helper-col1 {
+    margin-top: 6%;
+    left: 30%;
+  }
+
+  .helper-col2 {
+    left: 8%;
+  }
+}

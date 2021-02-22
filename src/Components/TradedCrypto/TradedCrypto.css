@@ -1,0 +1,134 @@
+.modal-wrapper {
+  height: 50vh !important;
+  width: 20vw !important;
+  top: 20%;
+  position: absolute;
+  display: block;
+}
+
+.trade-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(2%);
+}
+
+.buy-button {
+  --color-checked: #fcba03;
+}
+
+.sell-button {
+  --color-checked: #fcba03;
+}
+
+.name-col {
+}
+
+.first-row {
+  transform: translate(25%, -100%);
+}
+
+/* .tesst {
+  border: 1px solid #000;
+  border:
+} */
+
+.price-col {
+  right: -10%;
+  transform: translateY(-15%);
+  width: 300px;
+}
+
+.owned-crypto {
+  transform: translate(0, -25%);
+}
+
+.calculated-balance {
+}
+
+.owned-crypto-and-balance {
+  transform: translate(0, -25%);
+}
+
+.price-input-row {
+  transform: translateY(-30%);
+  max-height: 200%;
+  height: 30%;
+  /*background-color: aqua;*/
+}
+
+.price-input-col {
+  height: 100%;
+  width: 50%;
+  /*background-color: blueviolet;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-input {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  font-size: 75px;
+  /*background-color: brown;*/
+}
+
+.calculated-crypto-row {
+  transform: translateY(-200%);
+}
+
+.button-row {
+  transform: translate(0, 10%);
+}
+
+.buy-sell-button-col {
+  right: 15%;
+}
+
+.buy-sell-btn {
+  --background: #fcba03;
+  --color: #000;
+  height: 45px;
+  width: 90px;
+}
+
+.cancel-button-col {
+  left: 15%;
+}
+
+.cancel-btn {
+  --background: #fcba03;
+  --color: #000;
+  height: 45px;
+  width: 90px;
+}
+
+.error-row {
+  margin: 0;
+  padding: 0;
+  transform: translate(0, 50%);
+}
+
+.error-text {
+  font-size: 14px;
+}
+
+ion-button {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ion-text {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .modal-wrapper {
+    height: 70% !important;
+    width: 90% !important;
+    top: 15%;
+    position: absolute;
+    display: block;
+  }
+}

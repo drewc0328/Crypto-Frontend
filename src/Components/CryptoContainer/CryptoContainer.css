@@ -1,0 +1,43 @@
+.crypto-text {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.crypto-col {
+  transform: translateY(20%);
+  /* margin-top: 1%; */
+}
+
+.crypto-abbr-col {
+  transform: translateY(10%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .crypto-market-cap {
+    display: none;
+  }
+
+  .crypto-percent-change {
+    display: none;
+  }
+
+  .crypto-name {
+    transform: translate(0, 23%);
+  }
+
+  .crypto-price {
+    transform: translate(0, 23%);
+  }
+
+  .crypto-change {
+    display: none;
+  }
+
+  .crypto-buy-sell-btn {
+    display: none;
+  }
+
+  .container-card {
+    width: 90vw;
+  }
+}

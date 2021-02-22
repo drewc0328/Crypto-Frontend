@@ -42,17 +42,20 @@ const TradedCrypto: React.FC<Props> = (props) => {
 
   const buyCryptoHandler = async () => {
     try {
-      const response = await fetch("164.90.157.105:5000/api/users/addCrypto", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          id: user._id,
-          abbr: props.crypto.abbr,
-          amount: parseFloat(inputPrice) / props.crypto.price,
-        }),
-      });
+      const response = await fetch(
+        "http://localhost:5000/api/users/addCrypto",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            id: user._id,
+            abbr: props.crypto.abbr,
+            amount: parseFloat(inputPrice) / props.crypto.price,
+          }),
+        }
+      );
 
       const responseData = await response.json();
       //console.log("responseData: ", responseData);
@@ -72,17 +75,20 @@ const TradedCrypto: React.FC<Props> = (props) => {
   const sellCryptoHandler = async () => {
     //console.log("selling crypto");
     try {
-      const response = await fetch("164.90.157.105:5000/api/users/sellCrypto", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          id: user._id,
-          abbr: props.crypto.abbr,
-          amount: parseFloat(inputPrice) / props.crypto.price,
-        }),
-      });
+      const response = await fetch(
+        "http://localhost:5000/api/users/sellCrypto",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            id: user._id,
+            abbr: props.crypto.abbr,
+            amount: parseFloat(inputPrice) / props.crypto.price,
+          }),
+        }
+      );
 
       const responseData = await response.json();
 

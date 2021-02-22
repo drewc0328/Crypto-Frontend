@@ -38,7 +38,9 @@ const Home: React.FC<{}> = () => {
 
   const getCryptoData = async () => {
     try {
-      const response = await fetch("164.90.157.105:5000/api/cryptocurrencies/");
+      const response = await fetch(
+        "http://localhost:5000/api/cryptocurrencies/"
+      );
       const responseData = await response.json();
 
       if (!response) {

@@ -48,7 +48,7 @@ const Portfolio: React.FC<{}> = () => {
     //console.log("getPortoflio user: ", user);
     try {
       const response = await fetch(
-        "164.90.157.105:5000/api/users/getPortfolio",
+        "http://localhost:5000/api/users/getPortfolio",
         {
           method: "POST",
           headers: {
@@ -111,7 +111,7 @@ const Portfolio: React.FC<{}> = () => {
   const handleTrading = async (abbr: string) => {
     try {
       const response = await fetch(
-        `164.90.157.105:5000/api/cryptocurrencies/getByAbbr/${abbr}`
+        `http://localhost:5000/api/cryptocurrencies/getByAbbr/${abbr}`
       );
       const responseData = await response.json();
 

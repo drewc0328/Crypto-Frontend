@@ -101,7 +101,7 @@ const Landing: React.FC<{}> = () => {
     }
     dispatch({ type: "login" });
     try {
-      const response = await fetch("164.90.157.105:5000/api/users/login", {
+      const response = await fetch("http://localhost:5000/api/users/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -147,7 +147,7 @@ const Landing: React.FC<{}> = () => {
     }
     dispatch({ type: "login" });
     try {
-      const response = await fetch("164.90.157.105:5000/api/users/signup", {
+      const response = await fetch("http://localhost:5000/api/users/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

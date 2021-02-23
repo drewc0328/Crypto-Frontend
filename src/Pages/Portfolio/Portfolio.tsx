@@ -48,7 +48,7 @@ const Portfolio: React.FC<{}> = () => {
     //console.log("getPortoflio user: ", user);
     try {
       const response = await fetch(
-        "http://localhost:5000/api/users/getPortfolio",
+        "http://164.90.157.105:5000/api/users/getPortfolio",
         {
           method: "POST",
           headers: {
@@ -96,7 +96,7 @@ const Portfolio: React.FC<{}> = () => {
     function portfolioTimeout() {
       if (isSubscribed) {
         getPortfolio();
-        setTimeout(portfolioTimeout, 60000);
+        setTimeout(portfolioTimeout, 90000);
       }
     }
 
@@ -111,7 +111,7 @@ const Portfolio: React.FC<{}> = () => {
   const handleTrading = async (abbr: string) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/cryptocurrencies/getByAbbr/${abbr}`
+        `http://164.90.157.105:5000/api/cryptocurrencies/getByAbbr/${abbr}`
       );
       const responseData = await response.json();
 

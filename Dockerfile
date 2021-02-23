@@ -1,14 +1,8 @@
-FROM node:14-slim
-
+FROM node:latest
 WORKDIR /app
-
-COPY ./package.json ./
-COPY ./package-lock.json ./
-
+COPY package*.json /app/
+RUN npm install -g ionic
 RUN npm install
-
-COPY . .
-
+COPY ./ /app/
 EXPOSE 8100
-
 CMD ["ionic", "serve"]

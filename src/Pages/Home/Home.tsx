@@ -39,7 +39,7 @@ const Home: React.FC<{}> = () => {
   const getCryptoData = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/cryptocurrencies/"
+        "http://164.90.157.105:5000/api/cryptocurrencies/"
       );
       const responseData = await response.json();
 
@@ -56,7 +56,7 @@ const Home: React.FC<{}> = () => {
     function foo() {
       if (isSubscribed) {
         getCryptoData();
-        setTimeout(foo, 60000);
+        setTimeout(foo, 90000);
       }
     }
     foo();

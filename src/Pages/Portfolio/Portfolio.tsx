@@ -48,7 +48,7 @@ const Portfolio: React.FC<{}> = () => {
     //console.log("getPortoflio user: ", user);
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/users/getPortfolio",
+        "https://bithive-crypto-exchange.herokuapp.com/api/users/getPortfolio",
         {
           method: "POST",
           headers: {
@@ -111,7 +111,7 @@ const Portfolio: React.FC<{}> = () => {
   const handleTrading = async (abbr: string) => {
     try {
       const response = await fetch(
-        `http://164.90.157.105:5000/api/cryptocurrencies/getByAbbr/${abbr}`
+        `https://bithive-crypto-exchange.herokuapp.com/api/cryptocurrencies/getByAbbr/${abbr}`
       );
       const responseData = await response.json();
 

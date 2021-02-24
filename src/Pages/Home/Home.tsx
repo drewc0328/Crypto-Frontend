@@ -39,7 +39,7 @@ const Home: React.FC<{}> = () => {
   const getCryptoData = async () => {
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/cryptocurrencies/"
+        "https://bithive-crypto-exchange.herokuapp.com/api/cryptocurrencies/"
       );
       const responseData = await response.json();
 

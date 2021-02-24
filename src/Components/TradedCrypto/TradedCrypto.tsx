@@ -43,7 +43,7 @@ const TradedCrypto: React.FC<Props> = (props) => {
   const buyCryptoHandler = async () => {
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/users/addCrypto",
+        "https://bithive-crypto-exchange.herokuapp.com/api/users/addCrypto",
         {
           method: "POST",
           headers: {
@@ -76,7 +76,7 @@ const TradedCrypto: React.FC<Props> = (props) => {
     //console.log("selling crypto");
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/users/sellCrypto",
+        "https://bithive-crypto-exchange.herokuapp.com/api/users/sellCrypto",
         {
           method: "POST",
           headers: {

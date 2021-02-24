@@ -102,7 +102,7 @@ const Landing: React.FC<{}> = () => {
     dispatch({ type: "login" });
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/users/login",
+        "https://bithive-crypto-exchange.herokuapp.com/api/users/login",
         {
           method: "POST",
           headers: {
@@ -151,7 +151,7 @@ const Landing: React.FC<{}> = () => {
     dispatch({ type: "login" });
     try {
       const response = await fetch(
-        "http://164.90.157.105:5000/api/users/signup",
+        "https://bithive-crypto-exchange.herokuapp.com/api/users/signup",
         {
           method: "POST",
           headers: {

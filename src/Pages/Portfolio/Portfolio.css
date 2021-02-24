@@ -27,6 +27,7 @@
 
 .portfolio-property-col ion-text {
   font-size: 1.2rem;
+  margin-left: 32%;
 }
 
 @media only screen and (max-width: 1024px) {

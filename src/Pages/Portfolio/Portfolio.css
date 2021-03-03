@@ -29,7 +29,31 @@
 
 .portfolio-property-col ion-text {
   font-size: 1.2rem;
-  margin-left: 32%;
+  margin-left: 30%;
+}
+
+.portfolio-property-price-col {
+  margin-left: 3%;
+}
+
+.portfolio-property-price-col ion-text {
+  font-size: 1.2rem;
+}
+
+.portfolio-property-amount-col {
+  margin-left: -6%;
+}
+
+.portfolio-property-amount-col ion-text {
+  font-size: 1.2rem;
+}
+
+.portfolio-property-asset-col {
+  margin-left: -6%;
+}
+
+.portfolio-property-asset-col ion-text {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -55,5 +79,33 @@
 
   .header-card {
     margin-left: -1%;
+  }
+
+  .portfolio-property-col ion-text {
+    font-size: 1rem;
+  }
+
+  .portfolio-property-price-col {
+    right: 4%;
+  }
+
+  .portfolio-property-price-col ion-text {
+    font-size: 1rem;
+  }
+
+  .portfolio-property-amount-col {
+    right: 4%;
+  }
+
+  .portfolio-property-amount-col ion-text {
+    font-size: 1rem;
+  }
+
+  .portfolio-property-asset-col {
+    left: 5%;
+  }
+
+  .portfolio-property-asset-col ion-text {
+    font-size: 1rem;
   }
 }

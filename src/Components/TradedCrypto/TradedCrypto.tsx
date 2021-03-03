@@ -179,9 +179,19 @@ const TradedCrypto: React.FC<Props> = (props) => {
                 </IonCol>
                 <IonCol>
                   {currentSelection === "Buy" ? (
-                    <IonText>${user.balance - parseFloat(inputPrice)}</IonText>
+                    <IonText>
+                      $
+                      {Math.round(
+                        (user.balance - parseFloat(inputPrice)) * 100
+                      ) / 100}
+                    </IonText>
                   ) : (
-                    <IonText>${user.balance + parseFloat(inputPrice)}</IonText>
+                    <IonText>
+                      $
+                      {Math.round(
+                        (user.balance + parseFloat(inputPrice)) * 100
+                      ) / 100}
+                    </IonText>
                   )}
                 </IonCol>
               </div>

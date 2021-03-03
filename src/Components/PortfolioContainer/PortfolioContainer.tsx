@@ -42,7 +42,10 @@ const PortfolioContaier: React.FC<Props> = (props) => {
           </IonCol>
           <IonCol className="property-col translate-p">
             <IonText>
-              ${parseFloat(props.crypto.amount) * props.crypto.price}
+              $
+              {Math.round(
+                parseFloat(props.crypto.amount) * props.crypto.price * 100
+              ) / 100}
             </IonText>
           </IonCol>
           <IonCol className="property-col port-container-buy-sell">

@@ -157,14 +157,14 @@ const Portfolio: React.FC<{}> = () => {
                 <IonRow>
                   <IonCol>
                     <IonText className="portfolio-subheader-text">
-                      User Balance: ${user.balance}
+                      User Balance: ${Math.round(user.balance * 100) / 100}
                     </IonText>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol>
                     <IonText className="portfolio-subheader-text">
-                      Portfolio Worth: ${cryptoNetWorth}
+                      Portfolio Worth: ${Math.round(cryptoNetWorth * 100) / 100}
                     </IonText>
                   </IonCol>
                 </IonRow>

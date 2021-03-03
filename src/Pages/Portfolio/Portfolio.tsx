@@ -177,22 +177,26 @@ const Portfolio: React.FC<{}> = () => {
               <IonCard className="portfolio-container-card portfolio-margin">
                 <IonGrid>
                   <IonRow>
-                    <IonCol className="portfolio-property-col">
+                    <IonCol className="portfolio-property-col" size="4" size-sm>
                       <IonText className="portfolio-property-col-text">
                         Name
                       </IonText>
                     </IonCol>
-                    <IonCol className="portfolio-property-col">
+                    <IonCol className="portfolio-property-col" size="3" size-sm>
                       <IonText className="portfolio-property-col-text">
                         Price
                       </IonText>
                     </IonCol>
-                    <IonCol className="portfolio-property-col">
+                    <IonCol className="portfolio-property-col" size="5" size-sm>
                       <IonText className="portfolio-property-col-text">
                         Amount
                       </IonText>
                     </IonCol>
-                    <IonCol className="portfolio-property-col asset-worth-col">
+                    <IonCol
+                      className="portfolio-property-col asset-worth-col"
+                      size="12"
+                      size-sm
+                    >
                       <IonText className="portfolio-property-col-text">
                         Asset Worth
                       </IonText>

@@ -57,4 +57,13 @@
   .home-market-label {
     display: none;
   }
+
+  .home-label-row {
+    margin-left: 10%;
+  }
+
+  .crypto-container-div {
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }

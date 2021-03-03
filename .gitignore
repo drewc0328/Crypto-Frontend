@@ -6,6 +6,7 @@
 .pnp.js
 .dockerignore
 .Dockerfile
+/build
 
 # testing
 /coverage

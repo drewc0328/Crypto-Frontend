@@ -89,7 +89,7 @@ const Home: React.FC<{}> = () => {
           <IonGrid className="crypto-grid">
             <IonCard>
               <IonGrid>
-                <IonRow>
+                <IonRow className="home-label-row">
                   <IonCol className="home-name-label">
                     <IonText>Name</IonText>
                   </IonCol>

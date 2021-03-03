@@ -27,4 +27,9 @@
   .port-container-price {
     margin-right: 12%;
   }
+
+  .portfolio-container-card {
+    width: 80%;
+    left: 5%;
+  }
 }

@@ -40,10 +40,18 @@
   }
 
   .portfolio-property-col {
-    left: 6%;
+    right: 2%;
   }
 
   .asset-worth-col {
     margin-left: 4%;
+  }
+
+  .portfolio-margin {
+    margin-left: 4%;
+  }
+
+  .header-card {
+    margin-left: -1%;
   }
 }

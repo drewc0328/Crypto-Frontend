@@ -94,8 +94,8 @@
 
 @media only screen and (max-width: 1024px) {
   .ion-input-card {
-    transform: translate(-8%, 10%);
-    width: 110%;
+    transform: translate(-10%, 3%);
+    width: 120%;
   }
 
   .email-item {

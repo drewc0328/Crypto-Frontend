@@ -2,6 +2,7 @@
   display: flex;
   --border-style: none;
   height: 75px;
+  width: 100vw;
 }
 
 .header-title-text {

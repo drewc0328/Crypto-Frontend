@@ -19,10 +19,12 @@
 
 .portfolio-page {
   background-color: #f0eee3;
+  width: 100vw;
 }
 
 .overflow-div {
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .portfolio-property-col ion-text {
